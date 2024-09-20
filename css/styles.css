@@ -1,0 +1,504 @@
+* {
+    font-family: Montserrat;
+}
+
+main {
+    background-color: #fbfbfb;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    justify-content: space-between;
+    max-width: 2000px;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__logo {
+    width: 250px;
+    height: 100px;
+}
+
+.header__whatsapp-img, .header__phone-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+.header__contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.header__vertical-line {
+    background-color: lightgray;
+    height: 40px;
+    width: 2px;
+    margin: 0 15px;
+}
+
+.main__main-image-container {
+    /* padding: 20px; */
+    border: 1px solid black;
+    max-width: 2000px;
+    margin: 1rem auto;
+    /*margin: 1rem auto;*/
+}
+
+.main__main-image-container {
+    position: relative;
+} 
+
+.main__main-image-container-info {
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.main__main-image-container__name {
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main__main-image-container__description {
+    color: #CACACA;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+}
+
+.main__main-image-container__button { 
+    color: #038DA2;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border: none;
+    width: 300px;
+    height: 60px;
+}
+
+.main__main-image-container__image {
+    width: 100%;
+    height: 50rem;
+}
+
+.main__advantages-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    /*grid-template-rows: (2, auto);*/
+    gap: 0;
+    /*border: 2px solid red;*/
+    padding: 10px;
+    max-width: 55rem;
+}
+
+.main__advantages-container__section-1, .main__advantages-container__section-2,
+.main__advantages-container__section-3, .main__advantages-container__section-4 {
+    word-break: break-all;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20px; */
+    padding: 2rem;
+}
+
+.main__advantages-container__section-1 {
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.main__advantages-container__section-2 {
+    border-bottom: 2px solid lightgray;
+}
+
+.main__advantages-container__section-3 {
+    border-right: 2px solid lightgray;
+}
+
+.main__advantages-container__horizontal-line {
+    background-color: black;
+    height: 3px;
+    width: 40px;
+    margin-bottom: 30px
+}
+
+.main__advantages-container__image {
+    width: 75px;
+    height: 75px;
+}
+
+.main__advantages-container__count {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.main__advantages-container__description {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.main__description-container__name {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.main__description-container {
+    border-left: 2px solid lightgray;
+    max-width: 40rem;
+    /*height: 35rem;*/
+    padding-left: 20px;
+    padding-left: 5rem;
+}
+
+.main__description-container__description {
+    color: #666666;
+    font-size: 22px;
+}
+
+.main__description-container__button {
+    background-color: #04889c;
+    border: none;
+    width: 300px;
+    height: 65px;
+    color: white;
+    font-weight: 700;
+    margin: 40px 0px 0px 20px;
+}
+
+.main__advantages-description-container {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    max-width: 2000px;
+    margin: 0rem auto;
+    margin-top: 100px;
+}
+
+.main__description-container__horizontal-line {
+    width: 4rem;
+    height: 3px;
+    background-color: rgba(21, 21, 21, 0.7);
+    margin: 20px 0px 30px 0px;
+}
+
+.main__services-container {
+    /*border: 1px solid gray;
+    padding: 2rem;*/
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #fbfbfb;
+}
+
+.main__services-container__sections__section {
+    border: 1px solid lightgray;
+    max-width: 50rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.main__services-container__name {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.main__services-container__horizontal-line {
+    width: 80px;
+    height: 2px;
+    background-color: rgba(21, 21, 21, 0.7);
+    margin: 20px auto;
+    margin-bottom: 80px;
+}
+
+.main__services-container__sections__section__name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.main__services-container__sections__section__horizontal-line {
+    width: auto;
+    height: 2px;
+    background-color: rgba(197, 197, 197, 1);
+    margin-bottom: 20px;
+}
+
+.main__services-container__sections__section__description {
+    font-size: 20px;
+    color: rgba(119, 119, 119, 1);
+    font-weight: 400;
+    margin-bottom: 7rem;
+}
+
+
+/* Problem with maling relative + absolute = make center */
+.main__services-container__sections__section__button {
+   width: 47rem;
+   height: 60px;
+   background-color: #04889c;
+   border: none;
+   color: white;
+   font-weight: 700;
+   font-size: 20px;
+   /* margin-top: 3rem; */
+   position: absolute;
+   bottom: 0;
+   left: 25px;
+   margin-bottom: 30px;
+
+}
+
+.main__services-container__sections {
+    display: grid;
+    grid-template-columns: repeat(2, 50rem);
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.main__stage-of-work-container {
+    /* border: 1px solid black; */
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* padding: 10px; */
+}
+
+.main__stage-of-work-container__sections__name {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.main__stage-of-work-container__sections__horizontal-line {
+    width: 100px;
+    height: 2px;
+    background-color: rgba(21, 21, 21, 0.7);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main__stage-of-work-container__sections__section__name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main__stage-of-work-container__sections__section {
+    /*border: 1px solid red;*/
+    /*max-width: 100%;*/
+    position: relative;
+}
+
+.main__stage-of-work-container__sections__section__horizontal-line {
+    width: auto;
+    height: 2px;
+    background-color: rgba(182, 182, 182, 1);
+    margin: 30px 0px 30px 0px;
+}
+
+.main__stage-of-work-container__sections__section__description {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.main__stage-of-work-container__sections__section__checkmark {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main__stage-of-work-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #fbfbfb;
+}
+
+.main__stage-of-work-container__sections {
+    /*border: 1px solid blue;*/
+    max-width: 50%;
+}
+
+.main__stage-of-work-container__image {
+    width: auto;
+    height: 600px;
+}
+
+.main__our-partners-container {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 2000px;
+    background-color: #fbfbfb;
+    padding: 2rem;
+}
+
+.main__our-partners-container__sections {
+    /*border: 3px solid blue;*/
+    padding: 10px;
+}
+
+.main__our-partners-container__sections__section {
+    /*border: 5px solid purple;*/
+    max-width: 300px;
+}
+
+.main__our-partners-container_name {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 50px;
+}
+.main__our-partners-container__sections__section__image {
+    width: 180px;
+    height: 80px;
+    border: 1px solid rgba(209, 209, 209, 1);
+}
+
+.main__our-partners-container__horizontal-line {
+    width: 60px;
+    height: 2px;
+    background-color: rgba(21, 21, 21, 0.7);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main__our-partners-container__sections {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.header__sections__section {
+    list-style-type: none;
+}
+
+footer {
+    /* border: 3px solid red; */
+    background-color: rgba(43, 43, 43, 1);
+    height: 27rem;
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 3rem;
+}
+
+.footer__sections {
+    /* border: 21px solid purple; */
+    display: flex;
+    gap: 40px;
+    height: 15rem;
+    position: relative;
+}
+
+.footer__sections__section, .footer__sections__section-2, 
+.footer__sections__section-4  {
+    /*border: 1px solid blue;*/
+    color: white;
+    font-size: 25px;
+    width: 250px;
+}
+
+.footer__sections__section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__sections__section-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__sections__section-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__sections__section-2  {
+    margin-top: 45px;
+    list-style-type: none;
+}
+
+.footer__sections__section-4  {
+    margin-top: 45px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.footer__sections__button {
+    border: none;
+    background-color: #ffffff;
+    color: #077080;
+    width: 300px;
+    height: 60px;
+    font-weight: 700;
+}
+
+.footer__sections__section__name {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer__sections__section__item {
+    color: rgba(214, 214, 214, 1);
+}
+
+.footer__sections__section__number {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.footer__sections__button {
+    position: absolute;
+    right: 0;
+}
+
+.footer__sections__horizontal-line {
+    width: auto;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+}
+
+.footer__sections__item {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(200, 200, 200, 1);
+}
+
+.footer__sections__whatsapp-image {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.footer__sections__item-and-whatsapp-image {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+    margin-top: 30px;
+    position: relative;
+}
+
